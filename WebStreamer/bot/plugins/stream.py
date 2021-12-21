@@ -26,9 +26,9 @@ async def media_receive_handler(_, m: Message):
         file_name = file.file_name
     log_msg = await m.forward(chat_id=Var.BIN_CHANNEL)
     stream_link = Var.URL + str(log_msg.message_id) + '/' +quote_plus(file_name) if file_name else ''
-    stream_links = f"https://blog.textpage.xyz/surprising-physical-oddity-guys-look-for-in-women/"
+    stream_links = f"https://t.me/gk_films"
     await m.reply_text(
-        text=f"https://stream.shorturllink.in/st?api=af5e38dfaf8b900b45335173d279b44d7ae4b2e9&url={stream_link}",
+        text=f"https://droplink.co/api?api=d851a32e41a9332494c5cbf6b39500acf4bd289f&url={stream_link}",
         quote=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Learn something interesting 🤔', url=stream_links)]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('join our channel now😉🤔', url=stream_links)]])
     )
