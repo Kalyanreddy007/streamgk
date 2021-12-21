@@ -122,38 +122,4 @@ HAS_SSL=False
 
 `WEB_SERVER_BIND_ADDRESS` : Your server bind adress. Defauls to `0.0.0.0`
 
-`NO_PORT` : (can be either `True` or `False`) If you don't want your port to be displayed. You should point your `PORT` to `80` (http) or `443` (https) for the links to work. Ignore this if you're on Heroku.
-
-`FQDN` :  A Fully Qualified Domain Name if present. Defaults to `WEB_SERVER_BIND_ADDRESS`
-
-`HAS_SSL` : (can be either `True` or `False`) If you want the generated links in https format.
-## How to use the bot
-
-:warning: **Before using the  bot, don't forget to add the bot to the `BIN_CHANNEL` as an admin**
- 
-`/start` : To check if the bot is alive or not.
-
-To get an instant stream link, just forward any media to the bot and boom, its fast af.
-
-## faQ
-
-- How long the links will remain valid or is there any expiration time for the links generated b the bot?
-> The links will will be valid as longs as your bot is alive and you haven't deleted the log channel.
-
-## Contributing
-
-Feel free to contribute to this project if you have any further ideas
-
-## Contact me
-
-[![Telegram Channel](https://img.shields.io/static/v1?label=Join&message=Telegram%20Channel&color=blueviolet&style=for-the-badge&logo=telegram&logoColor=violet)](https://xn--r1a.click/WhySooSerious)
-[![Telegram Group](https://img.shields.io/static/v1?label=Join&message=Telegram%20Group&color=blueviolet&style=for-the-badge&logo=telegram&logoColor=violet)](https://xn--r1a.click/WhyThisUsername)
-
-You can contact either via my [Telegram Group](https://xn--r1a.click/WhyThisUsername) ~~or you can PM me on [@EverythingSuckz](https://xn--r1a.click/EverythingSuckz)~~
-
-## Credits
-
-- Me
-- [eyaadh](https://github.com/eyaadh) for his awesome [Megatron Bot](https://github.com/eyaadh/megadlbot_oss)
-- [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
-- [TheHamkerCat](https://github.com/TheHamkerCat) for helping me with my common doubts.
+`NO_PORT` : (can be either `True` or `False`) If you don't want your port t
